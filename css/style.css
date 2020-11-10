@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Questrial', 'sans-serif';
+    font-family: 'Quintessential', 'Ma Shan Zheng', 'Questrial', 'sans-serif';
     background-color: #666;
     display: flex;
     flex-direction: column;
@@ -12,14 +14,23 @@ body {
     justify-content: center;
     max-height: 100vh;
     margin: 0;
+    /* background-image: linear-gradient(45deg, #8bcc1a 25%, #d4db4f 25%, #d4db4f 50%, #8bcc1a 50%, #8bcc1a 75%, #d4db4f 75%, #d4db4f 100%);
+    background-size: 56.57px 56.57px; */
+    /* background-image: linear-gradient(45deg, #ad4fbd 25%, #4fdba3 25%, #4fdba3 50%, #ad4fbd 50%, #ad4fbd 75%, #4fdba3 75%, #4fdba3 100%);
+    background-size: 56.57px 56.57px; */
+    background-image: linear-gradient(90deg, #4f4fbd 26.54%, #5c8559 26.54%, #5c8559 50%, #4f4fbd 50%, #4f4fbd 76.54%, #5c8559 76.54%, #5c8559 100%);
+    background-size: 162.00px 162.00px;
 }
 
 video {
     height: 80vh;
+    margin-top: -30px;
 }
 
 h1 {
-    color: #fff;
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
 }
 
 .screen {
